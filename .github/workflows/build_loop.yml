@@ -50,8 +50,8 @@ jobs:
 
           # LoopWorkspace commit: Adds xDrip4iOS and GlucoseDirect CGM clients
           # Note - the added submodules must be cloned before the patch will work
-          echo "Downloading code to support xdrip-client-swift"
-          git clone https://github.com/johandegraeve/xdrip-client-swift-1.git xdrip-client-swift
+          # echo "Downloading code to support xdrip-client-swift"
+          # git clone https://github.com/johandegraeve/xdrip-client-swift-1.git xdrip-client-swift
           echo "Downloading code to support GlucoseDirectClient"
           git clone https://github.com/creepymonster/GlucoseDirectClient.git GlucoseDirectClient
           # This patch configures LoopWorkspace to use the added CGM submodules
